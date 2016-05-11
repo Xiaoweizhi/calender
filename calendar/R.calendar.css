@@ -1,0 +1,32 @@
+.rcalendarinput{background:#fff url(datePicker.png) no-repeat right center;border:#ccc 1px solid;height:20px;text-indent:5px;}
+.rcalendar{height:auto;width:240px;border:1px solid #ccc;border-radius:5px;padding:10px;position:absolute;z-index:9999;box-shadow:0 0 5px #ddd;font-size:13px;}
+.rcalendar .rcalendarSwitch{position:relative;}
+.rcalendar .rcalendarSwitch .rcalendar_prev,.rcalendar .rcalendarSwitch .rcalendar_next{font-family:sans-serif;
+	position:absolute;width:30px;text-align:center;display:block;height:30px;line-height:30px;font-size:14px;
+}
+.rcalendar .rcalendarSwitch .rcalendar_prev:active,.rcalendar .rcalendarSwitch .rcalendar_next:active{color:#0044cc;}
+.rcalendar .rcalendarSwitch .rcalendar_prev{top:0px;left:0px;}
+.rcalendar .rcalendarSwitch .rcalendar_next{top:0px;right:0px;}
+.rcalendar .rcalendarSwitch .rcalendar_switch{padding:0 30px;text-align:center;height:30px;line-height:30px;font-size:18px;font-family:sans-serif;}
+.rcalendar .rcalendarSwitch a{color:#333;text-decoration:none;}
+.rcalendar .rcalendarSwitch .rcalendar_switch a{display:inline-block;padding:0 10px;min-width:80px;border-radius:3px;}
+.rcalendar .rcalendarSwitch a:active{background:#eee;}
+
+#daysTable{margin-top:5px;}
+#daysTable table{width:100%;}
+#daysTable table td{text-align:center;}
+#daysTable .rcalendar_old,#daysTable .rcalendar_new{text-decoration:none;color:#999;cursor:default;}
+#daysTable .rcalendar_now{color:#333;text-decoration:none;display:block;border-radius:3px;padding:4px;}
+#daysTable .rcalendar_now:hover{background:#eee;}
+#daysTable .rcalendar_now.active,#daysTable .rcalendar_now:active{background:#0044cc;color:#fff;}
+#daysTable td{height: 20px;text-align: center;line-height: 20px;color:#999;padding:3px;}
+#daysTable th{font-size:16px;height:30px;line-height:30px;text-align: center;font-weight:normal;color:#333;}
+
+#monthsTable,#yearsTable{margin-top:5px;}
+#monthsTable table,#yearsTable table{width:100%;}
+#monthsTable table td,#yearsTable table td{width:25%;}
+#monthsTable .rcalendar_now,#yearsTable .rcalendar_now{color:#333;text-decoration:none;display:block;border-radius:3px;padding:4px;text-align:center;height:48px;line-height:48px;margin:2px;}
+#monthsTable .rcalendar_now:hover,#yearsTable .rcalendar_now:hover{background:#eee;}
+#monthsTable .rcalendar_now.active,#monthsTable .rcalendar_now:active{background:#0044cc;color:#fff;}
+#yearsTable .rcalendar_now.active,#yearsTable .rcalendar_now:active{background:#0044cc;color:#fff;}
+#yearsTable .rcalendar_old,#yearsTable .rcalendar_old{color:#999;text-decoration:none;display:block;border-radius:3px;padding:4px;text-align:center;height:48px;line-height:48px;margin:2px;cursor:default;}
